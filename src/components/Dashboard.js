@@ -37,10 +37,10 @@ const Dashboard = () => {
                 <button className="button" onClick={fetchData}>
                     <span>Generate a Quote!</span>
                 </button>
-                <button className="button" onClick={generateOnLoop}>
+                <button className="button-2" onClick={generateOnLoop}>
                     <span>Start the Loop</span>
                 </button>
-                <button className="button" onClick={stopTheLoop}>
+                <button className="button-3" onClick={stopTheLoop}>
                     <span>Stop the Loop</span>
                 </button>
                 </div>
